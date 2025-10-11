@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import { Menu, X, Moon, Sun } from 'lucide-react';
+import { Menu, X, Moon, Sun, Link } from 'lucide-react';
 import { useTheme } from '../../contexts/ThemeContext';
+import logo from '/./src/assets/react.svg';
 
 interface HeaderProps {
   currentPage: string;
@@ -34,11 +35,13 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             onClick={() => handleNavClick('home')}
             className="flex items-center space-x-2"
           >
-            <div className="w-10 h-10 bg-green-600 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-xl">GG</span>
+            <div className="w-10 h-10 flex items-center justify-center">
+              <Link to="/">
+                <img src={logo} alt=" Logo" className="h-12 w-auto" />
+              </Link>
             </div>
-            <span className="text-xl font-bold text-gray-900 dark:text-white">Go Green Mates</span>
           </button>
+          
 
           <div className="hidden lg:flex items-center space-x-6">
             {navItems.map((item) => (

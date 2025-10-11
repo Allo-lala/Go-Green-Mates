@@ -34,8 +34,7 @@ export default function Home({ onNavigate }: HomeProps) {
   const countries = [
     { name: 'Uganda', flag: '🇺🇬' },
     { name: 'Kenya', flag: '🇰🇪' },
-    { name: 'Rwanda', flag: '🇷🇼' },
-    { name: 'Tanzania', flag: '🇹🇿' },
+    { name: 'South Sudan', flag: '🇷🇼' },
     { name: 'Ghana', flag: '🇬🇭' }
   ];
 
