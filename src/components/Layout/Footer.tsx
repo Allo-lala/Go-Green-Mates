@@ -93,13 +93,22 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <h3 className="font-bold text-lg mb-4">Contact Info</h3>
             <ul className="space-y-3">
-              <li className="flex items-start space-x-2 text-sm text-gray-400">
+
+              {/* <li className="">
                 <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
                 <span>info@gogreenmates.org</span>
+              </li> */}
+
+              <li className="flex items-start space-x-2 text-sm text-gray-400">
+                <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
+              <a href="mailto:info@gogreenmates.org">
+                info@gogreenmates.org
+              </a>
               </li>
+
               <li className="flex items-start space-x-2 text-sm text-gray-400">
                 <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>+256 700 000 000</span>
+                <span>+31 657 499 091</span>
               </li>
               <li className="flex items-start space-x-2 text-sm text-gray-400">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
