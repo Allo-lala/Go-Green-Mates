@@ -44,8 +44,8 @@ export default function Campaigns() {
       { name: 'Victoria University', logo: 'https://vu.ac.ug/_nuxt/img/vu-logo-with-words.ac2cb23.png' },
       { name: 'Airtel Uganda', logo: 'https://cdn-webportal.airtelstream.net/website/uganda/assets/images/logo.svg' },
       { name: 'Swangz Avenue', logo: 'https://swangzavenue.com/wp-content/uploads/2020/03/SWANGZ-2022-logo-2.png' },
-      { name: 'Radiant', logo: 'https://movitproducts.com/wp-content/uploads/2022/02/radiant-logo-1.jpg' },
-      { name: 'Movit', logo: 'https://movitproducts.com/wp-content/uploads/2022/02/logo-pink-1.png' },
+      { name: 'Radiant', logo: 'https://movitproducts.com/wp-content/uploads/2025/10/Radiant.svg' },
+      { name: 'Movit', logo: 'https://movitproducts.com/wp-content/uploads/2025/08/MPL-Logo-04-1024x305.png' },
     ];
 
     return (
@@ -57,12 +57,11 @@ export default function Campaigns() {
             transition={{ duration: 0.8 }}
             className="text-center mb-16"
           >
-            <h2 className="text-3xl md:text-5xl font-serif font-light mb-4">
-              Brands & Collaborations
+            <h2 className="text-3xl md:text-5xl mb-4">
+              Our Partners
             </h2>
             <p className="text-primary-700 max-w-2xl mx-auto">
-              I have partnered with prestigious brands, bringing unique presence to their campaigns
-              and collections.
+              We collaborate with organizations driving and spreading the green gospel.
             </p>
           </motion.div>
 

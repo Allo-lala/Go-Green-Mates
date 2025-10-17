@@ -132,11 +132,20 @@ export default function Services() {
                     {product.description}
                   </p>
                   <button
-                    onClick={() => handleOrderWhatsApp(product.name)}
-                    className="w-full bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                  onClick={() => handleOrderWhatsApp(product.name)}
+                  className="w-full flex items-center justify-center gap-3 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-all shadow-md hover:shadow-lg"
+                >
+                 {/* WhatsApp Icon */}
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                    className="w-5 h-5 fill-current text-white"
                   >
-                    Order via WhatsApp
-                  </button>
+                  <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32 100.4 32 0 132.4 0 256c0 45 11.8 88.9 34.3 127.3L1.6 480l99.9-32.6c36.5 19.9 77.7 30.4 122.3 30.4h.1c123.5 0 224-100.4 224-224 0-59.3-23.1-115.1-65.1-157.1zM223.9 438.7c-38.1 0-75.4-10.2-107.8-29.6l-7.7-4.6-59.3 19.3 19.8-57.8-5-8.1C43.4 323.3 32 290.4 32 256c0-106 85.9-192 191.9-192 51.2 0 99.3 19.9 135.5 56.1 36.2 36.2 56.1 84.3 56.1 135.5 0 106-85.9 192.1-191.6 192.1zm101.6-138.4c-5.6-2.8-33.1-16.3-38.2-18.2-5.1-1.9-8.8-2.8-12.5 2.8s-14.3 18.2-17.5 21.9c-3.2 3.7-6.4 4.2-12 1.4-5.6-2.8-23.6-8.7-45-27.6-16.6-14.8-27.8-33.1-31.1-38.7-3.2-5.6-.3-8.6 2.5-11.4 2.6-2.6 5.6-6.8 8.4-10.2 2.8-3.4 3.7-5.6 5.6-9.4 1.9-3.7.9-7-0.5-9.8s-12.5-30.2-17.1-41.3c-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-7-.2-10.7-.2s-9.8 1.4-15 7c-5.1 5.6-19.6 19.1-19.6 46.6 0 27.5 20.1 54.1 22.9 57.8 2.8 3.7 39.6 60.4 96 84.8 13.4 5.8 23.8 9.3 31.9 11.9 13.4 4.3 25.6 3.7 35.2 2.3 10.7-1.6 33.1-13.5 37.8-26.5 4.7-13.1 4.7-24.4 3.2-26.5-1.3-2.1-5-3.6-10.6-6.4z" />
+                  </svg>
+                  Order via WhatsApp
+                </button>
+
                 </div>
               </div>
             ))}
