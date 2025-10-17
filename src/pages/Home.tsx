@@ -121,7 +121,7 @@ export default function Home({ onNavigate }: HomeProps) {
               Together for a Greener Tomorrow
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8">
-              Empowering communities to protect and restore our planet.
+              Engage Empower Earn
             </p>
             <button
               onClick={() => onNavigate('campaigns')}
@@ -165,10 +165,10 @@ export default function Home({ onNavigate }: HomeProps) {
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
-              Where We Work
+              Our Operation Zones
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Making a difference across the globe.
+              Making a difference until we spread across the globe.
             </p>
           </div>
           <div className="flex flex-wrap justify-center items-center gap-12">
@@ -189,7 +189,7 @@ export default function Home({ onNavigate }: HomeProps) {
               Our Partners
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              We collaborate with leading organizations driving climate action.
+              We collaborate with organizations driving and spreading the green gospel.
             </p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-5xl mx-auto">
@@ -214,7 +214,7 @@ export default function Home({ onNavigate }: HomeProps) {
               What People Say
             </h2>
             <p className="text-xl text-gray-600 dark:text-gray-300">
-              Voices from communities and partners.
+              Some of the green voices from communities and partners.
             </p>
           </div>
           <div className="max-w-4xl mx-auto relative">

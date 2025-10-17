@@ -152,7 +152,7 @@ export default function Services() {
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
               Every community has unique environmental challenges. We work closely with local leaders,
-              organizations, and residents to design tailored sustainability programs that address
+              organizations, and residents to design sustainability programs that address
               specific needs and maximize impact.
             </p>
             <button

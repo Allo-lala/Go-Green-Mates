@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Menu, X, Moon, Sun, Link } from 'lucide-react';
+import { Menu, X, Moon, Sun } from 'lucide-react';
 import { useTheme } from '../../contexts/ThemeContext';
-import logo from '/./src/assets/react.svg';
+import logo from '/./src/assets/logo.png';
 
 interface HeaderProps {
   currentPage: string;
@@ -36,9 +36,9 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
             className="flex items-center space-x-2"
           >
             <div className="w-10 h-10 flex items-center justify-center">
-              <Link to="/">
+              <div>
                 <img src={logo} alt=" Logo" className="h-12 w-auto" />
-              </Link>
+              </div>
             </div>
           </button>
           

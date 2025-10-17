@@ -1,5 +1,5 @@
-import { Link, Mail, Phone, MapPin } from 'lucide-react';
-import logo from '/./src/assets/nnn.png';
+import { Mail, Phone, MapPin } from 'lucide-react';
+import logo from '/./src/assets/logo.png';
 
 interface FooterProps {
   onNavigate: (page: string) => void;
@@ -27,14 +27,14 @@ export default function Footer({ onNavigate }: FooterProps) {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <div className="w-10 h-10 flex items-center justify-center">
-              <Link to="/">
-                <img src={logo} alt="Aroc Logo" className="h-10 w-auto" />
-              </Link>
+                <div> 
+                  <img src={logo} alt=" Logo" className="h-10 w-auto" />
+                </div>
 
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              Empowering communities to protect and restore our planet through collective action.
+              Engage Empower Earn
             </p>
             <div className="flex space-x-3">
               <div>
