@@ -4,49 +4,49 @@ export default function Team() {
       name: 'Amina Nakato',
       role: 'Executive Director',
       bio: 'Environmental scientist with 15+ years leading climate action initiatives across Africa.',
-      image: 'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://climatehubinternational.com/wp-content/uploads/2024/06/WhatsApp-Image-2024-06-20-at-8.54.37-AM.jpeg'
     },
     {
       name: 'James Ochieng',
       role: 'Operations Manager',
       bio: 'Expert in sustainable project management with a passion for community empowerment.',
-      image: 'https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://climatehubinternational.com/wp-content/uploads/2022/10/alex.png'
     },
     {
       name: 'Grace Kamara',
       role: 'Programs Coordinator',
       bio: 'Dedicated to grassroots initiatives and building strong partnerships across communities.',
-      image: 'https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://climatehubinternational.com/wp-content/uploads/2022/10/clinton.png'
     },
     {
-      name: 'David Mensah',
+      name: 'David Matovu',
       role: 'Communications Lead',
       bio: 'Storyteller and advocate for climate awareness through digital media and community engagement.',
-      image: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://climatehubinternational.com/wp-content/uploads/2022/12/fredd2.png'
     },
     {
       name: 'Sarah Wanjiru',
       role: 'Education & Training Director',
       bio: 'Specialist in environmental education with expertise in curriculum development.',
-      image: 'https://images.pexels.com/photos/3756679/pexels-photo-3756679.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://aroc.netlify.app/img/team-4.jpg'
     },
     {
       name: 'Ibrahim Hassan',
       role: 'Field Coordinator',
       bio: 'Coordinates on-ground activities including tree planting and waste collection programs.',
-      image: 'https://images.pexels.com/photos/2182973/pexels-photo-2182973.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://aroc.netlify.app/img/team-2.jpg'
     },
     {
       name: 'Lucy Achieng',
       role: 'Partnerships Manager',
       bio: 'Builds strategic alliances with NGOs, corporations, and government agencies.',
-      image: 'https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://aroc.netlify.app/img/team-3.jpg'
     },
     {
       name: 'Michael Owusu',
       role: 'Technology Officer',
       bio: 'Leverages technology solutions for environmental monitoring and data analysis.',
-      image: 'https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://aroc.netlify.app/img/team-1.jpg'
     }
   ];
 
@@ -55,25 +55,25 @@ export default function Team() {
       name: 'Dr. Patricia Muthoni',
       role: 'Board Chair',
       bio: 'Renowned climate policy advisor with over 20 years in international environmental governance.',
-      image: 'https://images.pexels.com/photos/3760607/pexels-photo-3760607.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://climatehubinternational.com/wp-content/uploads/2025/04/WhatsApp-Image-2025-04-18-at-7.33.33-PM.jpeg'
     },
     {
       name: 'Prof. John Kimathi',
       role: 'Board Member',
       bio: 'Professor of Environmental Science and sustainable development advocate.',
-      image: 'https://images.pexels.com/photos/2182971/pexels-photo-2182971.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://climatehubinternational.com/wp-content/uploads/2022/10/byakutaga.png'
     },
     {
       name: 'Esther Adongo',
       role: 'Board Treasurer',
       bio: 'Financial expert with extensive experience in non-profit management and governance.',
-      image: 'https://images.pexels.com/photos/3783525/pexels-photo-3783525.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://climatehubinternational.com/wp-content/uploads/2025/08/image-1.png'
     },
     {
       name: 'Robert Mwangi',
       role: 'Board Secretary',
       bio: 'Legal professional specializing in environmental law and corporate social responsibility.',
-      image: 'https://images.pexels.com/photos/2182972/pexels-photo-2182972.jpeg?auto=compress&cs=tinysrgb&w=400'
+      image: 'https://climatehubinternational.com/wp-content/uploads/2022/10/kimuli.png'
     }
   ];
 
