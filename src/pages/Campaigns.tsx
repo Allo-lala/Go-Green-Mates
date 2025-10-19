@@ -166,7 +166,7 @@ export default function Campaigns() {
                   </div>
                   <button
                     onClick={() => {
-                      const whatsappNumber = '+256700000000';
+                      const whatsappNumber = '+31657499091';
                       const message = `Hello! I would like to get involved with the ${campaign.title} campaign.`;
                       const url = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(
                         message
@@ -200,7 +200,7 @@ export default function Campaigns() {
             </p>
             <button
               onClick={() => {
-                const whatsappNumber = '+256700000000';
+                const whatsappNumber = '+31657499091';
                 const message =
                   'Hello! I would like to discuss partnership opportunities with Go Green Mates.';
                 const url = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(

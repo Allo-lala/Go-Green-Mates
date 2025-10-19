@@ -22,7 +22,7 @@ export default function Contact() {
         `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
       );
 
-      window.location.href = `mailto:info@gogreenmates.org?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:googreenmates@gmail.com?subject=${subject}&body=${body}`;
 
       setSubmitStatus('success');
       setFormData({ name: '', email: '', subject: '', message: '' });
@@ -128,7 +128,7 @@ export default function Contact() {
                 </button>
                 {submitStatus === 'success' && (
                   <p className="text-green-600 dark:text-green-400 text-center">
-                    Your email client should open. Please send the message to complete.
+                    Please send the message to complete.
                   </p>
                 )}
                 {submitStatus === 'error' && (
@@ -156,7 +156,7 @@ export default function Contact() {
                       <Mail className="w-5 h-5 text-green-600 dark:text-green-400 mt-1 flex-shrink-0" />
                       <div>
                         <p className="font-medium text-gray-900 dark:text-white">Email</p>
-                        <a href="mailto:info@gogreenmates.org" className="text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">
+                        <a href="mailto:googreenmates@gmail.com.org" className="text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">
                           info@gogreenmates.org
                         </a>
                       </div>
@@ -165,8 +165,8 @@ export default function Contact() {
                       <Phone className="w-5 h-5 text-green-600 dark:text-green-400 mt-1 flex-shrink-0" />
                       <div>
                         <p className="font-medium text-gray-900 dark:text-white">Phone</p>
-                        <a href="tel:+256700000000" className="text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">
-                          +256 700 000 000
+                        <a href="tel:+31657499091" className="text-gray-600 dark:text-gray-300 hover:text-green-600 dark:hover:text-green-400">
+                          +31 657 499 091
                         </a>
                       </div>
                     </div>

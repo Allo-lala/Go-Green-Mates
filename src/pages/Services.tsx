@@ -38,8 +38,8 @@ export default function Services() {
   ];
 
   const handleOrderWhatsApp = (productName: string) => {
-    const whatsappNumber = '+256700000000';
-    const message = `Hello! I would like to order ${productName} from Go Green Mates.`;
+    const whatsappNumber = '+31657499091';
+    const message = `Hello! I would like to order ${productName} from Grin Mates.`;
     const url = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
   };
@@ -166,7 +166,7 @@ export default function Services() {
             </p>
             <button
               onClick={() => {
-                const whatsappNumber = '+256700000000';
+                const whatsappNumber = '+31657499091';
                 const message = 'Hello! I would like to discuss custom sustainability solutions.';
                 const url = `https://wa.me/${whatsappNumber.replace(/\D/g, '')}?text=${encodeURIComponent(message)}`;
                 window.open(url, '_blank');

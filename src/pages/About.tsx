@@ -34,7 +34,7 @@ export default function About() {
         />
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 text-center text-white px-4">
-          <h1 className="text-5xl md:text-6xl font-bold mb-4">About Goo Green Mates</h1>
+          <h1 className="text-5xl md:text-6xl font-bold mb-4">About Grin Mates</h1>
           <p className="text-xl md:text-2xl">Driving sustainable change through collective action</p>
         </div>
       </section>

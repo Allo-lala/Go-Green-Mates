@@ -17,7 +17,7 @@ export default function Footer({ onNavigate }: FooterProps) {
   ];
 
   const partners = [
-    'UNEP', 'WWF', 'Green Earth', 'EcoAction', 'ClimateNow', 'TreeLife'
+    'Odin City', 'CIH', 'Green Earth', 'EcoAction', 'ClimateNow', 'TreeLife'
   ];
 
   return (
@@ -147,7 +147,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               ))}
             </div>
           </div>
-          <p className="text-center text-sm text-gray-500">&copy; {new Date().getFullYear()} Go Green Mates. All rights reserved.</p>
+          <p className="text-center text-sm text-gray-500">&copy; {new Date().getFullYear()} Grin Mates. All rights reserved.</p>
         </div>
       </div>
     </footer>

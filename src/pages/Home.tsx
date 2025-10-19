@@ -57,7 +57,7 @@ export default function Home({ }: HomeProps) {
     },
     {
       quote: 'A trusted partner in sustainability.',
-      name: 'Green Earth Org',
+      name: 'Green Earth',
       title: 'Partner Organization',
       location: 'Global',
     },
@@ -109,7 +109,7 @@ export default function Home({ }: HomeProps) {
               Engage • Empower • Earn
             </p>
 
-            {/* Modern App Download Buttons */}
+            {/* App Download Buttons */}
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               {/* Android Button */}
               <a
@@ -123,7 +123,7 @@ export default function Home({ }: HomeProps) {
                 />
               </a>
 
-              {/* iOS Button */}
+              {/* iOS  */}
               <a
                 href="#"
                 className="flex items-center gap-3 bg-white text-gray-900 hover:bg-gray-100 px-6 py-3 rounded-xl transition-all shadow-lg hover:shadow-xl"
@@ -244,7 +244,7 @@ export default function Home({ }: HomeProps) {
   );
 }
 
-// REPLACEMENT BRANDS SECTION
+//  BRANDS SECTION
 const BrandsSection = () => {
   const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
 
