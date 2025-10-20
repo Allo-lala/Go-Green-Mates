@@ -35,7 +35,7 @@ export default function About() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 text-center text-white px-4">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">About Grin Mates</h1>
-          <p className="text-xl md:text-2xl">Driving sustainable change through collective action</p>
+          <p className="text-xl md:text-2xl">Driving sustainable change through collective action, where we empower and engage activists while they earn</p>
         </div>
       </section>
 
@@ -49,8 +49,7 @@ export default function About() {
                   <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Our Mission</h2>
                 </div>
                 <p className="text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
-                  We are dedicated to driving sustainable change through collective action, innovation,
-                  and education. Our mission is to empower communities with the tools and knowledge they
+                  To empower communities with the tools and knowledge they
                   need to create a healthier, more sustainable future for all.
                 </p>
               </div>
@@ -82,7 +81,7 @@ export default function About() {
                   className="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-lg border border-gray-200 dark:border-gray-700 hover:shadow-xl transition-shadow"
                 >
                   <div className="flex items-start">
-                    <div className="bg-green-100 dark:bg-green-900/30 p-3 rounded-lg mr-4">
+                    <div className=" dark:bg-green-900/30 p-3 rounded-lg mr-4">
                       <value.icon className="w-8 h-8 text-green-600 dark:text-green-400" />
                     </div>
                     <div>
@@ -107,7 +106,7 @@ export default function About() {
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">Our Story</h2>
             <div className="space-y-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               <p>
-                Go Green Mates was founded with a simple yet powerful belief: that communities, when
+                Grin Mates was founded with a simple yet powerful belief: that communities, when
                 empowered with the right resources and knowledge, can drive meaningful environmental change.
               </p>
               <p>

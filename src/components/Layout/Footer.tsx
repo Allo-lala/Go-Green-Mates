@@ -1,5 +1,5 @@
 import { Mail, Phone, MapPin } from 'lucide-react';
-import logo from '/./src/assets/logo.png';
+import logo from '/./src/assets/log.png';
 
 interface FooterProps {
   onNavigate: (page: string) => void;
@@ -17,7 +17,7 @@ export default function Footer({ onNavigate }: FooterProps) {
   ];
 
   const partners = [
-    'Odin City', 'CIH', 'Green Earth', 'EcoAction', 'ClimateNow', 'TreeLife'
+    'Aroc ', 'Green Earth', 'EcoAction', 'ClimateNow', 'TreeLife'
   ];
 
   return (
@@ -34,7 +34,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               </div>
             </div>
             <p className="text-gray-400 text-sm mb-4">
-              Engage Empower Earn
+              Engage • Empower • Earn
             </p>
             <div className="flex space-x-3">
               <div>
@@ -101,7 +101,7 @@ export default function Footer({ onNavigate }: FooterProps) {
 
               <li className="flex items-start space-x-2 text-sm text-gray-400">
                 <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
-              <a href="mailto:info@gogreenmates.org">
+              <a href="mailto:googreenmates@gmail.com">
                 info@gogreenmates.org
               </a>
               </li>

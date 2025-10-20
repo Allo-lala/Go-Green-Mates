@@ -45,13 +45,13 @@ export default function Home({ }: HomeProps) {
   const testimonials = [
     {
       quote: 'Grin Mates transformed our community. We are greener, cleaner, and more united.',
-      name: 'Sarah N.',
+      name: 'Sarah Namuli.',
       title: 'Community Leader',
       location: 'Kampala, Uganda',
     },
     {
       quote: 'Their programs inspire action and hope for the future.',
-      name: 'David M.',
+      name: 'David Muthangi.',
       title: 'Environmental Activist',
       location: 'Nairobi, Kenya',
     },
@@ -63,8 +63,8 @@ export default function Home({ }: HomeProps) {
     },
     {
       quote: 'The tree planting initiative has restored life to our village.',
-      name: 'Grace K.',
-      title: 'Farmer',
+      name: 'Olac Kiny Omoli.',
+      title: 'Environmental Activist',
       location: 'South Sudan',
     },
   ];
@@ -195,11 +195,11 @@ export default function Home({ }: HomeProps) {
           <div className="max-w-4xl mx-auto relative">
             <div className="bg-white dark:bg-gray-900 rounded-xl shadow-xl p-8 md:p-12">
               <div className="flex flex-col items-center text-center">
-                <div className="w-20 h-20 bg-green-600 rounded-full flex items-center justify-center mb-6">
+                {/* <div className="w-20 h-20 bg-green-600 rounded-full flex items-center justify-center mb-6">
                   <span className="text-white text-3xl font-bold">
                     {testimonials[currentTestimonial].name.charAt(0)}
                   </span>
-                </div>
+                </div> */}
                 <p className="text-xl md:text-2xl text-gray-700 dark:text-gray-300 mb-6 italic">
                   "{testimonials[currentTestimonial].quote}"
                 </p>
