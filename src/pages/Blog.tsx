@@ -1,74 +1,73 @@
+import { useState } from 'react';
 import { Calendar, User } from 'lucide-react';
 
 export default function Blog() {
+  const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
+
   const blogPosts = [
     {
       title: 'The Impact of Community-Led Tree Planting Initiatives',
-      excerpt: 'Discover how grassroots tree planting projects are transforming landscapes and empowering communities across East Africa. Learn from success stories in Uganda, Kenya, and Rwanda.',
-      image: 'https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=800',
+      excerpt:
+        'Discover how grassroots tree planting projects are transforming landscapes and empowering communities across East Africa. Learn from success stories in Uganda, Kenya, and Rwanda. This initiative has seen thousands of trees planted, improving local biodiversity and providing sustainable income sources for rural farmers. The project also promotes women and youth engagement in conservation activities...',
+      image:
+        'https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=800',
       date: 'March 15, 2025',
-      author: 'Amina Nakato'
+      author: 'Owor Francis',
     },
     {
-      title: 'Solar Energy: Lighting Up Rural Communities',
-      excerpt: 'How solar panel installations are bringing clean, affordable energy to remote villages and transforming lives through sustainable power solutions.',
-      image: 'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=800',
+      title: 'Solar Energy: Lighting Up Communities',
+      excerpt:
+        'How solar panel installations are bringing clean, affordable energy to remote villages and transforming lives through sustainable power solutions. Projects in Northern Uganda have cut energy costs by 60%, enabling children to study at night and businesses to run longer hours. These solar hubs are also being used to power irrigation systems for farmers, improving food security...',
+      image:
+        'https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg?auto=compress&cs=tinysrgb&w=800',
       date: 'March 10, 2025',
-      author: 'David Mensah'
+      author: 'Owor Francis',
     },
     {
-      title: 'From Waste to Value: The Circular Economy in Action',
-      excerpt: 'Explore innovative waste recycling programs that are turning trash into treasure and creating economic opportunities in urban communities.',
-      image: 'https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg?auto=compress&cs=tinysrgb&w=800',
-      date: 'March 5, 2025',
-      author: 'Grace Kamara'
+      title: 'Eco-Friendly Tech: Innovations Driving Sustainability',
+      excerpt:
+        'From biodegradable packaging to AI-powered waste sorting, technology is shaping the future of sustainability. Ugandan startups are leveraging green innovations to reduce plastic pollution, promote recycling, and create new employment opportunities in the green economy. This article explores how young innovators are redefining technology with purpose...',
+      image:
+        'https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&w=800',
+      date: 'March 8, 2025',
+      author: 'Nabirye Tracy',
     },
     {
-      title: 'Climate Education: Empowering the Next Generation',
-      excerpt: 'Why environmental education in schools is crucial for building a sustainable future. A look at our education programs and their impact on young minds.',
-      image: 'https://images.pexels.com/photos/5212317/pexels-photo-5212317.jpeg?auto=compress&cs=tinysrgb&w=800',
-      date: 'February 28, 2025',
-      author: 'Sarah Wanjiru'
+      title: 'The Rise of Green Startups in Africa',
+      excerpt:
+        'A new wave of entrepreneurs is building sustainable businesses that balance profit and planet. From eco-tourism to ethical fashion and renewable energy, African innovators are leading the green revolution. This piece highlights inspiring stories of startups that are transforming how we consume, produce, and live responsibly...',
+      image:
+        'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800',
+      date: 'March 4, 2025',
+      author: 'Amina Kato',
     },
     {
-      title: 'Plastic-Free Living: Small Changes, Big Impact',
-      excerpt: 'Practical tips and inspiring stories from families who have successfully reduced their plastic consumption and embraced sustainable alternatives.',
-      image: 'https://images.pexels.com/photos/802221/pexels-photo-802221.jpeg?auto=compress&cs=tinysrgb&w=800',
-      date: 'February 20, 2025',
-      author: 'Lucy Achieng'
+      title: 'Urban Gardening: Transforming City Spaces into Green Havens',
+      excerpt:
+        'With rising urbanization, city dwellers are reclaiming rooftops and balconies to grow vegetables, herbs, and flowers. Urban gardening is not only improving air quality but also building social connections and promoting healthy eating. Learn how small actions are creating greener cities one garden at a time...',
+      image:
+        'https://images.pexels.com/photos/4750270/pexels-photo-4750270.jpeg?auto=compress&cs=tinysrgb&w=800',
+      date: 'March 1, 2025',
+      author: 'Mugerwa Allan',
     },
     {
-      title: 'Partnership Spotlight: Working Together for Change',
-      excerpt: 'Meet our partners and learn how collaboration between NGOs, governments, and communities is accelerating climate action across the continent.',
-      image: 'https://images.pexels.com/photos/1402850/pexels-photo-1402850.jpeg?auto=compress&cs=tinysrgb&w=800',
-      date: 'February 15, 2025',
-      author: 'James Ochieng'
+      title: 'Sustainable Fashion: The New Trend in Conscious Living',
+      excerpt:
+        'The fashion industry is evolving with eco-conscious designs made from recycled fabrics, organic cotton, and ethical labor practices. African designers are at the forefront, promoting slow fashion that values craftsmanship over consumption. Discover how style can be sustainable and still stunning...',
+      image:
+        'https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&w=800',
+      date: 'February 27, 2025',
+      author: 'Nandutu Maria',
     },
-    {
-      title: 'Carbonized Briquettes: A Green Alternative to Charcoal',
-      excerpt: 'How eco-friendly briquettes made from agricultural waste are reducing deforestation and providing clean cooking fuel for thousands of households.',
-      image: 'https://images.pexels.com/photos/5025634/pexels-photo-5025634.jpeg?auto=compress&cs=tinysrgb&w=800',
-      date: 'February 10, 2025',
-      author: 'Ibrahim Hassan'
-    },
-    {
-      title: 'Technology for Conservation: Data-Driven Climate Action',
-      excerpt: 'Leveraging modern technology and data analytics to monitor environmental impact, track progress, and optimize sustainability programs.',
-      image: 'https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=800',
-      date: 'February 5, 2025',
-      author: 'Michael Owusu'
-    },
-    {
-      title: 'Women Leading the Green Revolution',
-      excerpt: 'Celebrating the vital role of women in environmental conservation and sustainable development across African communities.',
-      image: 'https://images.pexels.com/photos/3756681/pexels-photo-3756681.jpeg?auto=compress&cs=tinysrgb&w=800',
-      date: 'January 30, 2025',
-      author: 'Grace Kamara'
-    }
   ];
+
+  const toggleReadMore = (index: number) => {
+    setExpandedIndex(expandedIndex === index ? null : index);
+  };
 
   return (
     <div className="bg-white dark:bg-gray-900">
+      {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center">
         <img
           src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1920"
@@ -82,6 +81,7 @@ export default function Blog() {
         </div>
       </section>
 
+      {/* Blog Cards Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -108,14 +108,23 @@ export default function Blog() {
                       <span>{post.author}</span>
                     </div>
                   </div>
-                  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3 line-clamp-2">
+                  <h2 className="text-xl font-bold text-gray-900 dark:text-white mb-3">
                     {post.title}
                   </h2>
-                  <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-3">
+
+                  <p
+                    className={`text-gray-600 dark:text-gray-300 mb-4 transition-all ${
+                      expandedIndex === index ? '' : 'line-clamp-3'
+                    }`}
+                  >
                     {post.excerpt}
                   </p>
-                  <button className="text-green-600 dark:text-green-400 font-semibold hover:text-green-700 dark:hover:text-green-300 transition-colors">
-                    Read More →
+
+                  <button
+                    onClick={() => toggleReadMore(index)}
+                    className="text-green-600 dark:text-green-400 font-semibold hover:text-green-700 dark:hover:text-green-300 transition-colors"
+                  >
+                    {expandedIndex === index ? 'Show Less ↑' : 'Read More →'}
                   </button>
                 </div>
               </article>
@@ -124,6 +133,7 @@ export default function Blog() {
         </div>
       </section>
 
+      {/* Newsletter Section */}
       <section className="py-16 bg-gray-50 dark:bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
@@ -131,8 +141,7 @@ export default function Blog() {
               Stay Updated
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8">
-              Subscribe to our newsletter to receive the latest stories, campaign updates, and environmental
-              tips directly to your inbox.
+              Subscribe to our newsletter to receive the latest stories, campaign updates, and environmental tips directly to your inbox.
             </p>
             <form className="flex flex-col sm:flex-row gap-4 max-w-xl mx-auto">
               <input
