@@ -18,7 +18,7 @@ export default function Campaigns() {
       description:
         'Community-driven waste collection and recycling programs that transform neighborhoods into cleaner, healthier spaces. We empower local teams with the tools and training needed to manage waste sustainably.',
       image:
-        'https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg?auto=compress&cs=tinysrgb&w=1200',
+        'https://climatehubinternational.com/wp-content/uploads/2022/09/bins-chi.jpg',
       stats: '1,000+ tons of waste collected',
     },
     {
@@ -36,17 +36,19 @@ export default function Campaigns() {
     const [ref, inView] = useInView({ triggerOnce: true, threshold: 0.2 });
 
     const brands = [
-      { name: 'Morelli Agency', logo: 'https://i.ibb.co/DfLjtXkf/Logo-Moreli-Modeling.webp' },
-      { name: 'Skills Klinic', logo: 'https://i.ibb.co/XZSvyh3g/Skills-Klinic.png' },
-      { name: 'Absa Bank', logo: 'https://www.absa.co.ug/content/dam/uganda/absa/logos/absa-logo-bg.png' },
-      { name: 'Rosy Lips', logo: 'https://i.ibb.co/4w0tJS1g/Rosy-Lips.jpg' },
-      { name: 'Next Media', logo: 'https://nextmedia.co.ug/wp-content/uploads/2022/10/Next-Media-cropped-logo.png' },
-      { name: 'Victoria University', logo: 'https://vu.ac.ug/_nuxt/img/vu-logo-with-words.ac2cb23.png' },
-      { name: 'Airtel Uganda', logo: 'https://cdn-webportal.airtelstream.net/website/uganda/assets/images/logo.svg' },
-      { name: 'Swangz Avenue', logo: 'https://swangzavenue.com/wp-content/uploads/2020/03/SWANGZ-2022-logo-2.png' },
-      { name: 'Radiant', logo: 'https://movitproducts.com/wp-content/uploads/2025/10/Radiant.svg' },
-      { name: 'Movit', logo: 'https://movitproducts.com/wp-content/uploads/2025/08/MPL-Logo-04-1024x305.png' },
-    ];
+    { name: 'Morelli Agency', logo: 'https://i.ibb.co/DfLjtXkf/Logo-Moreli-Modeling.webp' },
+    { name: 'Skills Klinic', logo: 'https://i.ibb.co/XZSvyh3g/Skills-Klinic.png' },
+    { name: 'Absa Bank', logo: 'https://www.absa.co.ug/content/dam/uganda/absa/logos/absa-logo-bg.png' },
+    { name: 'green iniative', logo: 'https://climatehubinternational.com/wp-content/uploads/2023/04/green-teso.png' },
+    { name: 'Next Media', logo: 'https://nextmedia.co.ug/wp-content/uploads/2022/10/Next-Media-cropped-logo.png' },
+    { name: 'Victoria University', logo: 'https://vu.ac.ug/_nuxt/img/vu-logo-with-words.ac2cb23.png' },
+    { name: 'Airtel Uganda', logo: 'https://cdn-webportal.airtelstream.net/website/uganda/assets/images/logo.svg' },
+    { name: 'Nema', logo: 'https://climatehubinternational.com/wp-content/uploads/2023/04/nema.png' },
+    { name: 'Climate Hub International', logo: 'http://climatehubinternational.com/wp-content/uploads/2022/07/logo-web-green.jpg' },
+    { name: 'Total Energies', logo: 'https://climatehubinternational.com/wp-content/uploads/2023/04/total-en.webp' },
+    { name: 'UNDP', logo: ' https://climatehubinternational.com/wp-content/uploads/2023/04/united-nations.png ' },
+    { name: 'Agro consotium', logo: ' https://climatehubinternational.com/wp-content/uploads/2023/04/agro.jpeg' },
+  ];
 
     return (
       <section id="brands" ref={ref} className="section bg-white py-24">
@@ -129,7 +131,7 @@ export default function Campaigns() {
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center">
         <img
-          src="https://images.pexels.com/photos/1402850/pexels-photo-1402850.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src=" https://media.istockphoto.com/id/2163172073/photo/group-of-volunteers-help-solve-environmental-problems-global-teamwork-and-business-world.jpg?s=612x612&w=0&k=20&c=BYA7raP4du8xQDD1TrJoE5gfkLLLEYOSBZXHnME8ZSw= "
           alt="Community action"
           className="absolute inset-0 w-full h-full object-cover"
         />

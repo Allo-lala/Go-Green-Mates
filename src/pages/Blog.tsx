@@ -10,7 +10,7 @@ export default function Blog() {
       excerpt:
         'Discover how grassroots tree planting projects are transforming landscapes and empowering communities across East Africa. Learn from success stories in Uganda, Kenya, and Rwanda. This initiative has seen thousands of trees planted, improving local biodiversity and providing sustainable income sources for rural farmers. The project also promotes women and youth engagement in conservation activities...',
       image:
-        'https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://climatehubinternational.com/wp-content/uploads/2022/12/WhatsApp-Image-2022-12-14-at-5.41.22-PM-2.jpeg',
       date: 'March 15, 2025',
       author: 'Owor Francis',
     },
@@ -28,7 +28,7 @@ export default function Blog() {
       excerpt:
         'From biodegradable packaging to AI-powered waste sorting, technology is shaping the future of sustainability. Ugandan startups are leveraging green innovations to reduce plastic pollution, promote recycling, and create new employment opportunities in the green economy. This article explores how young innovators are redefining technology with purpose...',
       image:
-        'https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://iiot-world.com/wp-content/uploads/harmonious-fusion-nature-technology-1024x574.jpg',
       date: 'March 8, 2025',
       author: 'Nabirye Tracy',
     },
@@ -37,7 +37,7 @@ export default function Blog() {
       excerpt:
         'A new wave of entrepreneurs is building sustainable businesses that balance profit and planet. From eco-tourism to ethical fashion and renewable energy, African innovators are leading the green revolution. This piece highlights inspiring stories of startups that are transforming how we consume, produce, and live responsibly...',
       image:
-        'https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://africa-news-agency.com/wp-content/uploads/2024/11/D02.png',
       date: 'March 4, 2025',
       author: 'Amina Kato',
     },
@@ -46,7 +46,7 @@ export default function Blog() {
       excerpt:
         'With rising urbanization, city dwellers are reclaiming rooftops and balconies to grow vegetables, herbs, and flowers. Urban gardening is not only improving air quality but also building social connections and promoting healthy eating. Learn how small actions are creating greener cities one garden at a time...',
       image:
-        'https://images.pexels.com/photos/4750270/pexels-photo-4750270.jpeg?auto=compress&cs=tinysrgb&w=800',
+        'https://i0.wp.com/wegrownyc.org/wp-content/uploads/2024/01/Untitled-design-2024-01-16T122655.412.png?w=1200&ssl=1',
       date: 'March 1, 2025',
       author: 'Mugerwa Allan',
     },
@@ -55,7 +55,7 @@ export default function Blog() {
       excerpt:
         'The fashion industry is evolving with eco-conscious designs made from recycled fabrics, organic cotton, and ethical labor practices. African designers are at the forefront, promoting slow fashion that values craftsmanship over consumption. Discover how style can be sustainable and still stunning...',
       image:
-        'https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg?auto=compress&cs=tinysrgb&w=800',
+        ' https://ethikonline.com/cdn/shop/articles/Sustainable_Fashion_Trends_2025_Ethik_Vegan_Fashion_Brand_0c811de0-b9f9-4246-ab6a-39362568355d_1200x.progressive.jpg?v=1739493154',
       date: 'February 27, 2025',
       author: 'Nandutu Maria',
     },
@@ -70,7 +70,7 @@ export default function Blog() {
       {/* Hero Section */}
       <section className="relative h-96 flex items-center justify-center">
         <img
-          src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="https://dlf.com/Admin/Public/GetImage.ashx?image=%2fFiles%2fImages%2fglobal%2fforage%2fdlf-forage-11.jpg&width=960&format=webp&quality=99"
           alt="Green Voices Blog"
           className="absolute inset-0 w-full h-full object-cover"
         />

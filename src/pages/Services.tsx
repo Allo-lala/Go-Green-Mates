@@ -5,13 +5,13 @@ export default function Services() {
     {
       title: 'Waste Collection & Recycling',
       description: 'Organized waste collection and sorting systems for a cleaner environment. We work with communities to establish sustainable waste management practices that reduce pollution and promote recycling.',
-      image: 'https://images.pexels.com/photos/2988232/pexels-photo-2988232.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://climatehubinternational.com/wp-content/uploads/2022/07/98-plastic-roundup.webp',
       icon: Recycle
     },
     {
       title: 'Tree Planting Programs',
       description: 'Reforesting and greening communities, one tree at a time. Our comprehensive tree planting initiatives help combat deforestation, improve air quality, and restore natural habitats.',
-      image: 'https://images.pexels.com/photos/1072824/pexels-photo-1072824.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://climatehubinternational.com/wp-content/uploads/2022/12/WhatsApp-Image-2022-12-01-at-4.16.55-PM.jpeg',
       icon: TreePine
     }
   ];
@@ -20,7 +20,7 @@ export default function Services() {
     {
       name: 'Gas Stoves',
       description: 'Efficient cooking solutions that reduce reliance on firewood and charcoal, helping to preserve forests and reduce indoor air pollution.',
-      image: 'https://images.pexels.com/photos/4259140/pexels-photo-4259140.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://stabexinternational.com/wp-content/uploads/2021/12/stabex-gas.jpg',
       icon: Flame
     },
     {
@@ -31,8 +31,8 @@ export default function Services() {
     },
     {
       name: 'Carbonized Briquettes',
-      description: 'Eco-friendly fuel alternative made from recycled agricultural waste, providing clean burning energy while reducing deforestation.',
-      image: 'https://images.pexels.com/photos/5025634/pexels-photo-5025634.jpeg?auto=compress&cs=tinysrgb&w=800',
+      description: 'Eco-friendly fuel alternative made from recycled waste, providing clean burning energy while reducing deforestation.',
+      image: 'https://www.woodbriquetteplant.com/images/131114/CharredBriquettes1.jpg',
       icon: Leaf
     }
   ];
@@ -48,7 +48,7 @@ export default function Services() {
     <div className="bg-white dark:bg-gray-900">
       <section className="relative h-96 flex items-center justify-center">
         <img
-          src="https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          src="https://dlf.com/Admin/Public/GetImage.ashx?image=%2fFiles%2fImages%2fSwift+Co3%2fNew+image+structure%2fWebsites%2f.com%2fInnovation+and+Sustainability%2fInnovation-and-Sustainablity_Impact-on-climate_2000x1100.jpg&width=1920&format=webp&quality=99"
           alt="Eco-friendly solutions"
           className="absolute inset-0 w-full h-full object-cover"
         />
