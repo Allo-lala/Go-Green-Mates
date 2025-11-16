@@ -112,7 +112,7 @@ export default function Footer({ onNavigate }: FooterProps) {
               </li>
               <li className="flex items-start space-x-2 text-sm text-gray-400">
                 <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                <span>Kampala, Uganda</span>
+                <span>Masaka, Uganda</span>
               </li>
             </ul>
           </div>
