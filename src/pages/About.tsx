@@ -66,7 +66,7 @@ export default function About() {
                 </p>
               </div>
             </div>
-
+{/* ==============================================Our Core Values ====================================================================== */}
             <div className="text-center mb-12">
               <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">Our Core Values</h2>
               <p className="text-xl text-gray-600 dark:text-gray-300">
@@ -106,24 +106,109 @@ export default function About() {
             <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">Our Story</h2>
             <div className="space-y-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
               <p>
-                Grin Mates was founded with a simple yet powerful belief: that communities, when
-                empowered with the right resources and knowledge, can drive meaningful environmental change.
+                Grin Mates is a youth-led environmental and climate action organisation based in Masaka,
+                Uganda. 
               </p>
               <p>
-                Since our inception, we have grown from a small grassroots initiative into a regional
-                movement spanning five countries across East and West Africa. Through partnerships with
-                local communities, international organizations, and dedicated volunteers, we have planted
-                over 500,000 trees, collected thousands of tons of waste, and brought sustainable energy
-                solutions to countless homes.
+                <b>“Grin”</b> represents a broad smile inspired by the promise of a greener tomorrow created through
+                the actions we take today. At the same time, it speaks to <b>“Green”</b>, symbolising the environmental
+                work at the heart of our mission.
               </p>
               <p>
-                Today, we continue to expand our reach and deepen our impact, always staying true to our
-                core mission: empowering communities to protect and restore our planet.
+                <b>“Mates”</b> represents unity, friendship and collective responsibility of young people coming together 
+                  to protect the planet and shape a better future.
               </p>
             </div>
           </div>
         </div>
       </section>
+  {/* ============================== KEY ACTIVITIES ====================================== */}
+<section className="py-16">
+  <div className="container mx-auto px-4 max-w-4xl">
+    <div className="text-center mb-12">
+      <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-4">
+        Our key activities include:
+      </h2>
     </div>
+
+    <div className="space-y-10 text-gray-700 dark:text-gray-300 leading-relaxed">
+
+      {/* 1. Reforestation */}
+      <div>
+        <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
+          1. Reforestation & Landscape Restoration
+        </h3>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Focus on mainly fruit trees for food security and long-term livelihood support.</li>
+          <li>Sustainability rule: No cutting a tree for 15 years; if one tree is cut, five must be planted.</li>
+        </ul>
+      </div>
+
+      {/* 2. Climate Education */}
+      <div>
+        <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
+          2. Climate Education & Youth Mobilisation
+        </h3>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Community workshops and school outreach programs.</li>
+          <li>Local climate dialogues that build awareness and inspire action.</li>
+        </ul>
+      </div>
+
+      {/* 3. Waste Management */}
+      <div>
+        <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
+          3. Waste Management & Circular Economy
+        </h3>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Community clean-ups and recycling awareness drives.</li>
+          <li>Behaviour-change campaigns to reduce plastic and household waste.</li>
+        </ul>
+      </div>
+
+      {/* 4. Clean Energy */}
+      <div>
+        <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
+          4. Clean & Improved Energy Solutions
+        </h3>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Promoting transition from charcoal to Liquefied Petroleum Gas, solar, and other efficient cooking technologies.</li>
+        </ul>
+      </div>
+
+      {/* 5. Community Resilience */}
+      <div>
+        <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
+          5. Community Resilience Projects
+        </h3>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Water conservation awareness and sustainable agriculture training.</li>
+          <li>Support for vulnerable groups adapting to climate impacts.</li>
+        </ul>
+      </div>
+
+      {/* 6. Partnerships & Advocacy */}
+      <div>
+        <h3 className="text-2xl font-semibold text-gray-900 dark:text-white mb-2">
+          6. Partnerships & Environmental Advocacy
+        </h3>
+        <ul className="list-disc pl-6 space-y-2">
+          <li>Engaging local leaders, youth groups, and civil society organisations.</li>
+          <li>Strengthening environmental policy participation and youth inclusion.</li>
+        </ul>
+      </div>
+
+    </div>
+
+    {/* Closing */}
+    <p className="mt-10 text-gray-700 dark:text-gray-300 leading-relaxed text-lg">
+      Grin Mates is driven by the belief that when young people organise, collaborate,
+      and act with purpose, they can reshape their communities and protect the planet
+      for generations to come.
+    </p>
+  </div>
+</section>
+            
+</div>
   );
 }
